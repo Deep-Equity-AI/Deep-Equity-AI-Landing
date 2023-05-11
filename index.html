@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Equity AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            width:100%;
+            margin:0;
+            padding:0;
+            font-family: "Inter";
+            
+            height: 100%;            transition: all 0.1s ease-out;
+            /* font-size: 3em; */
+            line-height: 2.3em;
+            background-color:hsla(195,50%,22%,1);
+            animation: gradient 15s ease infinite;
+            background-size: 600% 600%;
+            background-position: fixed;
+            color:#eee;
+background-image:
+radial-gradient(at 95% 70%, #4c86f0 0px, transparent 50%),
+radial-gradient(at 40% 20%, rgb(204, 218, 221) 0px, transparent 50%),
+radial-gradient(at 0% 0%, #5280BA 0px, transparent 50%);
+            /* background-image:url("mesh-gradient\(3\).png"); */
+            
+        }
+        @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+        }
+        #content{
+            height: 100%;
+            display: flex;
+
+            width:100%;
+            font-weight: 300;
+            flex-direction: column;
+
+}
+#first{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            font-size: 2.3em;
+            line-height: 2.4em;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.waitlist{
+    font-size: 0.5em;
+    font-weight: 100;
+}
+.waitlist a {
+    color:inherit;
+}
+.intro{
+    margin:20px;
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 2.5em;
+    width:70%;
+}
+.intro p {
+    margin:30px;
+}
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div id="first">
+            <h1><span style="color:#5bacdd">Deep</span> Equity AI</h1>
+            <p>a product for the people.</p>
+            <p class = "waitlist">Sign up for the waitlist <span><a href="https://forms.gle/PjRDNFBQbXnz8aaLA">here</a></span></p>
+        </div>
+        
+    </div>
+<div class="intro">
+    <h1 style="margin: 30px;">About Us</h1>
+    <p> Deep Equity AI is a vertical SaaS analytics platform that leverages the latest advancements in machine learning, big data, and inferential statistics to identify risks, trends, and investment opportunities that optimize your returns. </p>
+    <p> Our software provides lightning-fast results and palatable, risk-assessed investment strategies that help you make informed decisions with confidence.
+        We believe that everyone deserves access to high-quality investment strategies and resources, regardless of their background or experience.</p>
+        <p>That's why our mantra is 'a product for the people.'    We provide perspective, you do the rest.</p>
+        <p> This isn't financial advice, it's the <span style="color:#5bacdd">future</span>.</p> 
+    </P>
+</div>
+</body>
+</html>
